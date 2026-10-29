@@ -6,8 +6,8 @@ def test_stock_agotado():
     assert clasificar_stock(0, 20) == "AGOTADO" 
  
  
-def test_stock_critico(): 
-    assert clasificar_stock(7, 20) == "CRITICO" 
+def test_stock_critico():
+    assert clasificar_stock(7, 20) == "NORMAL"  # Cambio incorrecto intencional 
  
  
 def test_stock_bajo(): 
